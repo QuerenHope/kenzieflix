@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    padding-top: 20px;
+    background-color: black;
+    justify-content: center;
+
+}
+
+
+.container{
+    display: flex;
+    width: 888px;
+    height: 544px;
+    background: #121214;
+    border-radius: 12px;
+    }
+
+.cabecalho{
+    display: flex;
+    align-content: center;
+}  
+
+h2{
+    text-align: center;
+    color: #ffff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+
+
+    .avatar1{
+    padding: 25px;}
+    .avatar2{
+    padding: 25px;}
+    .avatar3{
+    padding: 25px;}
+    .avatar4{
+    padding: 25px;}
+
+small {
+    
+    color: #9c9c9c;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.perfis {
+    align-items: center;
+    width: 153px;
+    height: 20px;
+    align-content: center;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px white solid;
+    background-color: #9c9c9c;
+    border-radius: 2px;
+}
+
+
